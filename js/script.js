@@ -1,21 +1,25 @@
-var buttonClick = function () {
-	var firstname = document.getElementById("firstname").value;
-	var lastname = document.getElementById("lastname").value;
-	var age = document.getElementById("age").value;
+// MAIN VARIABLES
+var firstname = "Joe";
+var lastname = "Kalucki";
+var age = 28;
+var futureAge = age + 22
+var family = ["Anthony", "Mary Jo", "Craig", "Joe", "Mark"];
 
-	alert(firstname + " " + lastname + " " + "is" + " " + age +".");
-
-		if (age < 18) {
-			alert("You are not old enough to access this site.");
-		}
-
-		if (age >= 18) {
-			alert("Permisson to this site has been granted!");
-		}
+// On Page load
+var formLoad= function () {
+	document.getElementById("firstname").value = firstname;
+	document.getElementById("lastname").value = lastname;
+	document.getElementById("age").value = age;
+	document.getElementById("future-age").value = futureAge;
+	document.getElementById("family").value = family;
 }
 
-var reverseSort = function() {
-	var familyList = ["Anthony Kalucki", "Mary Jo Kalucki", "Craig Kalucki", "Joe Kalucki", "Mark Kalucki"];
-	document.getElementById("familylist").innerHTML = familyList.reverse();
+// Button click function
+var clickEvent= function () {
+	alert(firstname + " " + lastname + " " + "is" + " " + age +" years old.");
 }
+
+
+
+
 

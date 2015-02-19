@@ -1,3 +1,92 @@
 html {
 	font-family: helvetica; 
 }
+
+h1 {
+	color:#374140;
+}
+
+.form-label1 {
+	background-color: #D9CB9E;
+	height:50px;
+	color:#DC3522;
+	font-size:20px;
+	margin-bottom: 20px;
+	width:50%;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.form-label1 input {
+	height:25px;
+	width:200px;
+	font-size:16px;
+}
+
+.form-label2 {
+	background-color: #D9CB9E;
+	height:50px;
+	color:#DC3522;
+	font-size:20px;
+	margin-bottom: 20px;
+	width:50%;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.form-label2 input {
+	height:25px;
+	width:200px;
+	font-size:16px;
+}
+
+.form-label3 {
+	background-color: #D9CB9E;
+	height:50px;
+	color:#DC3522;
+	font-size:20px;
+	margin-bottom: 20px;
+	width:50%;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.form-label3 input {
+	height:25px;
+	width:200px;
+	font-size:16px;
+}
+
+.form-label4 {
+	background-color: #D9CB9E;
+	height:50px;
+	color:#DC3522;
+	font-size:20px;
+	margin-bottom: 20px;
+	width:50%;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.form-label4 input {
+	height:25px;
+	width:200px;
+	font-size:16px;
+}
+
+.form-label5 {
+	background-color: #D9CB9E;
+	height:50px;
+	color:#DC3522;
+	font-size:20px;
+	margin-bottom: 20px;
+	width:50%;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.form-label5 input {
+	height:25px;
+	width:200px;
+	font-size:16px;
+}

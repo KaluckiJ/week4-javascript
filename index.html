@@ -2,25 +2,35 @@
 <html>
 <head>
 	<title>Week 4 Javascript Assignment</title>
-	<link rel="javascript" type="text/javascript" href="js/script.js">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body onload="formLoad();">
 	<h1>
 		Week 4 Assignment | Javascript
 	</h1>
 	<form>
-		<label class="firstname">First Name: </label><input type="text" id="firstname" required><p>
-		<label class="lastname">Last Name: </label><input type="text" id="lastname" required><p>
-		<label class="age">Age: </label><input type="text" id="age" required><p>
-		<button onclick="buttonClick()"><p>Submit</p></button>
+		<div class="form-label1">
+			<label class="first-name">First Name: </label><input type="text" id="firstname" required placeholder="First Name"> <p>
+		</div>
+		<div class="form-label2">
+			<label class="last-name">Last Name: </label><input type="text" id="lastname" required>
+			<p>
+		</div>
+		<div class="form-label3">	
+			<label class="age">Age: </label><input type="text" id="age" required>
+			<p>
+		</div>
+		<div class="form-label4">
+			<label class="future-age">Age + 22 years: </label><input type="text" id="future-age" required>
+			<p>
+		</div>
+		<div class="form-label5">
+			<label class="family">Family members: </label><input type="text" id="family" required>
+			<p>
+		</div>
+		<button onClick="clickEvent();"><p>Click for Special Message</p></button>
 	</form>
 </br>
- 	<div id"familylist">
- 		<p>Anthony Kalucki, Mary Jo Kalucki, Craig Kalucki, Joe Kalucki, Mark Kalucki</p>
- 	</div>
-	<div>
-		<button onclick="reverseSort()"><p>Reverse Order</p></button>
-	</div>
 <script src ="js/script.js" type="text/javascript"></script>
 </body>
 </html>
